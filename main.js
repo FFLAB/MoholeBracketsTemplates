@@ -87,6 +87,9 @@ define(function (require, exports, module) {
                 case "hcssjquery":
                     template = require("text!html/hjquery.html");
                     break;
+                case "hcssjquerydr":
+                    template = require("text!html/hjquerydr.html");
+                    break;
                 case "bs_css":
                     template = require("text!html/bs_css.html");
                     break;
